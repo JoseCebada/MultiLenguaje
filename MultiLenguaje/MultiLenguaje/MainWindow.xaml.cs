@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Resources;
 
 namespace MultiLenguaje
 {
@@ -20,9 +21,30 @@ namespace MultiLenguaje
     /// </summary>
     public partial class MainWindow : Window
     {
+        string strLenguage = "";
+        Boolean boolInt = true;
         public MainWindow()
         {
             InitializeComponent();
+            boolInt = false;
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            Set_Lenguage();
+        }
+        private void ddlLanguage_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            Set_Lenguage();
+        }
+        private void Set_Lenguage()
+        {
+            strLenguage = "Multilenguaje.Lenguajes." + ((ComboBoxItem) ddlLanguage.SelectedItem).Name.ToString();
+            ResourceManager LocRM = new ResourceManager(strLenguage, typeof(MainWindow).Assembly);
+            lblFirstName.Text = LocRM.GetString("strFirstName");
+            lblLastName.Text = LocRM.GetString("strLastName");
+            lblAge.Text = LocRM.GetString("strAge");
+            lblContact.Text = LocRM.GetString("strContact");
         }
     }
 }

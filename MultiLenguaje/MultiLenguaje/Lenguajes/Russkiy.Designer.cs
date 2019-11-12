@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MultiLenguaje {
+namespace MultiLenguaje.Lenguajes {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace MultiLenguaje {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MultiLenguaje.Russkiy", typeof(Russkiy).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MultiLenguaje.Lenguajes.Russkiy", typeof(Russkiy).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

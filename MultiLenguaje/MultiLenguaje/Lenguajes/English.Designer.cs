@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MultiLenguaje {
+namespace MultiLenguaje.Lenguajes {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace MultiLenguaje {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Le_français {
+    internal class English {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Le_français() {
+        internal English() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace MultiLenguaje {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MultiLenguaje.Le français", typeof(Le_français).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MultiLenguaje.Lenguajes.English", typeof(English).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,7 @@ namespace MultiLenguaje {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Âge:.
+        ///   Busca una cadena traducida similar a Age:.
         /// </summary>
         internal static string strAge {
             get {
@@ -70,7 +70,7 @@ namespace MultiLenguaje {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Nº de Contact:.
+        ///   Busca una cadena traducida similar a Contact No:.
         /// </summary>
         internal static string strContact {
             get {
@@ -79,7 +79,7 @@ namespace MultiLenguaje {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Prénom:.
+        ///   Busca una cadena traducida similar a First Name:.
         /// </summary>
         internal static string strFirstName {
             get {
@@ -88,7 +88,7 @@ namespace MultiLenguaje {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Nom de famille:.
+        ///   Busca una cadena traducida similar a Last Name:.
         /// </summary>
         internal static string strLastName {
             get {

@@ -55,12 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Español.Designer.cs">
+    <Compile Include="Lenguajes\Español.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Español.resx</DependentUpon>
     </Compile>
-    <Compile Include="Russkiy.Designer.cs">
+    <Compile Include="Lenguajes\Russkiy.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Russkiy.resx</DependentUpon>
@@ -73,12 +73,12 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="English.Designer.cs">
+    <Compile Include="Lenguajes\English.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>English.resx</DependentUpon>
     </Compile>
-    <Compile Include="Le français.Designer.cs">
+    <Compile Include="Lenguajes\Le français.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Le français.resx</DependentUpon>
@@ -102,15 +102,15 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <EmbeddedResource Include="English.resx">
+    <EmbeddedResource Include="Lenguajes\English.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>English.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Español.resx">
+    <EmbeddedResource Include="Lenguajes\Español.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Español.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Le français.resx">
+    <EmbeddedResource Include="Lenguajes\Le français.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Le français.Designer.cs</LastGenOutput>
     </EmbeddedResource>
@@ -118,7 +118,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Russkiy.resx">
+    <EmbeddedResource Include="Lenguajes\Russkiy.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Russkiy.Designer.cs</LastGenOutput>
     </EmbeddedResource>
